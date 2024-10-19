@@ -7,11 +7,11 @@ public class Producto {
     private double precio;
     private int cantidad;
 
-    // Constructor vacío
+    
     public Producto() {
     }
 
-    // Constructor con parámetros
+    
     public Producto(int id, String nombre, String ingredientes, double precio, int cantidad) {
         this.id = id;
         this.nombre = nombre;
@@ -20,7 +20,7 @@ public class Producto {
         this.cantidad = cantidad;
     }
 
-    // Getters y Setters
+    
     public int getId() {
         return id;
     }

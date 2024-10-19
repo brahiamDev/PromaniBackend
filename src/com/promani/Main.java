@@ -66,7 +66,6 @@ public class Main {
 
         Producto nuevoProducto = new Producto(0, nombre, ingredientes, precio, cantidad);
 
-        // Llamamos a la función para guardar el producto en la base de datos
         guardarProductoEnBD(nuevoProducto);
     }
 
@@ -140,7 +139,7 @@ public class Main {
         System.out.println("===== Actualizar Producto =====");
         System.out.print("Ingresa el ID del producto a actualizar: ");
         int id = scanner.nextInt();
-        scanner.nextLine(); // Consumir el salto de línea
+        scanner.nextLine(); 
 
         System.out.print("Nuevo nombre del producto: ");
         String nuevoNombre = scanner.nextLine();
